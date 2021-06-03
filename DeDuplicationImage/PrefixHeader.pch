@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  DeDuplicationImage
+//
+//  Created by mac on 2021/4/9.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define kScreen_Width  [[UIScreen mainScreen] bounds].size.width
+#define kScreen_Height [[UIScreen mainScreen] bounds].size.height
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

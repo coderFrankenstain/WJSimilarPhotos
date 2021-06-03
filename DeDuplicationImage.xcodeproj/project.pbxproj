@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0429D4E125F79406006037AE /* AMPhashAssetsCompare.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0429D4E025F79406006037AE /* AMPhashAssetsCompare.mm */; };
+		043C460D25FA328B00F545CD /* AMRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C460C25FA328B00F545CD /* AMRootNavigationController.m */; };
+		043C461625FA33F900F545CD /* UIViewController+AMNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C461425FA33F900F545CD /* UIViewController+AMNavigationItem.m */; };
+		043C461C25FA340E00F545CD /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C461B25FA340E00F545CD /* NSString+Extension.m */; };
+		043C462225FA341300F545CD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C462025FA341300F545CD /* UIView+Extension.m */; };
+		048F769F262EF73B00DB1401 /* AMCompare.mm in Sources */ = {isa = PBXBuildFile; fileRef = 048F769E262EF73B00DB1401 /* AMCompare.mm */; };
+		0493CA8025FB027500513332 /* AMHistogramCompare.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0493CA7F25FB027500513332 /* AMHistogramCompare.mm */; };
+		0493CAAC25FB4B0900513332 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0493CAAB25FB4B0900513332 /* TestViewController.m */; };
+		04D3E085262031AA002A41A0 /* AMImageShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3E084262031AA002A41A0 /* AMImageShowController.m */; };
+		04DE49D425F1DC0D000ED380 /* AMPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE49D325F1DC0C000ED380 /* AMPhotoManager.m */; };
+		04E234922625894D002CD80E /* AMSimilarityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E234912625894D002CD80E /* AMSimilarityManager.m */; };
+		04E44FC2261C797300FAE98B /* AMOrbAssetsCompare.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04E44FC1261C797300FAE98B /* AMOrbAssetsCompare.mm */; };
+		04E4876725F8AF77002E5C71 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4876625F8AF77002E5C71 /* MainViewController.m */; };
+		04E4877525F8BE5E002E5C71 /* AMAssetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4877425F8BE5E002E5C71 /* AMAssetCollectionViewCell.m */; };
+		04EA802B25EF5BD70070322F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA802A25EF5BD70070322F /* AppDelegate.m */; };
+		04EA802E25EF5BD70070322F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA802D25EF5BD70070322F /* SceneDelegate.m */; };
+		04EA803125EF5BD70070322F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA803025EF5BD70070322F /* ViewController.m */; };
+		04EA803425EF5BD70070322F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA803225EF5BD70070322F /* Main.storyboard */; };
+		04EA803625EF5BDC0070322F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EA803525EF5BDC0070322F /* Assets.xcassets */; };
+		04EA803925EF5BDC0070322F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA803725EF5BDC0070322F /* LaunchScreen.storyboard */; };
+		04EA803C25EF5BDC0070322F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA803B25EF5BDC0070322F /* main.m */; };
+		04EA804625EF5BDD0070322F /* DeDuplicationImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA804525EF5BDD0070322F /* DeDuplicationImageTests.m */; };
+		04EA805125EF5BDD0070322F /* DeDuplicationImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA805025EF5BDD0070322F /* DeDuplicationImageUITests.m */; };
+		04F15E4525F622DE0050131A /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F15E4425F622DE0050131A /* NSDate+Helper.m */; };
+		DD403A104F0029FDF3D8FAA7 /* Pods_DeDuplicationImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBD9C5717BC6302049F7992 /* Pods_DeDuplicationImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EA804225EF5BDD0070322F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EA801E25EF5BD70070322F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EA802525EF5BD70070322F;
+			remoteInfo = DeDuplicationImage;
+		};
+		04EA804D25EF5BDD0070322F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EA801E25EF5BD70070322F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EA802525EF5BD70070322F;
+			remoteInfo = DeDuplicationImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0429D4DF25F79406006037AE /* AMPhashAssetsCompare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMPhashAssetsCompare.h; sourceTree = "<group>"; };
+		0429D4E025F79406006037AE /* AMPhashAssetsCompare.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AMPhashAssetsCompare.mm; sourceTree = "<group>"; };
+		043C460B25FA328B00F545CD /* AMRootNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMRootNavigationController.h; sourceTree = "<group>"; };
+		043C460C25FA328B00F545CD /* AMRootNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMRootNavigationController.m; sourceTree = "<group>"; };
+		043C461425FA33F900F545CD /* UIViewController+AMNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMNavigationItem.m"; sourceTree = "<group>"; };
+		043C461525FA33F900F545CD /* UIViewController+AMNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMNavigationItem.h"; sourceTree = "<group>"; };
+		043C461A25FA340E00F545CD /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		043C461B25FA340E00F545CD /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		043C462025FA341300F545CD /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		043C462125FA341300F545CD /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		048F769D262EF73B00DB1401 /* AMCompare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMCompare.h; sourceTree = "<group>"; };
+		048F769E262EF73B00DB1401 /* AMCompare.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AMCompare.mm; sourceTree = "<group>"; };
+		0493CA7E25FB027500513332 /* AMHistogramCompare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMHistogramCompare.h; sourceTree = "<group>"; };
+		0493CA7F25FB027500513332 /* AMHistogramCompare.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AMHistogramCompare.mm; sourceTree = "<group>"; };
+		0493CAAA25FB4B0900513332 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0493CAAB25FB4B0900513332 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		04D3E083262031AA002A41A0 /* AMImageShowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMImageShowController.h; sourceTree = "<group>"; };
+		04D3E084262031AA002A41A0 /* AMImageShowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMImageShowController.m; sourceTree = "<group>"; };
+		04D3E08926203DE8002A41A0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = DeDuplicationImage/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		04DE49D225F1DC0C000ED380 /* AMPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMPhotoManager.h; sourceTree = "<group>"; };
+		04DE49D325F1DC0C000ED380 /* AMPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMPhotoManager.m; sourceTree = "<group>"; };
+		04E234902625894D002CD80E /* AMSimilarityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMSimilarityManager.h; sourceTree = "<group>"; };
+		04E234912625894D002CD80E /* AMSimilarityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMSimilarityManager.m; sourceTree = "<group>"; };
+		04E44FC0261C797300FAE98B /* AMOrbAssetsCompare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMOrbAssetsCompare.h; sourceTree = "<group>"; };
+		04E44FC1261C797300FAE98B /* AMOrbAssetsCompare.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AMOrbAssetsCompare.mm; sourceTree = "<group>"; };
+		04E4876525F8AF77002E5C71 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		04E4876625F8AF77002E5C71 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		04E4877325F8BE5E002E5C71 /* AMAssetCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAssetCollectionViewCell.h; sourceTree = "<group>"; };
+		04E4877425F8BE5E002E5C71 /* AMAssetCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAssetCollectionViewCell.m; sourceTree = "<group>"; };
+		04EA802625EF5BD70070322F /* DeDuplicationImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeDuplicationImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA802925EF5BD70070322F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04EA802A25EF5BD70070322F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04EA802C25EF5BD70070322F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04EA802D25EF5BD70070322F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04EA802F25EF5BD70070322F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04EA803025EF5BD70070322F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04EA803325EF5BD70070322F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EA803525EF5BDC0070322F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EA803825EF5BDC0070322F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EA803A25EF5BDC0070322F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA803B25EF5BDC0070322F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EA804125EF5BDD0070322F /* DeDuplicationImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeDuplicationImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA804525EF5BDD0070322F /* DeDuplicationImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeDuplicationImageTests.m; sourceTree = "<group>"; };
+		04EA804725EF5BDD0070322F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA804C25EF5BDD0070322F /* DeDuplicationImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeDuplicationImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA805025EF5BDD0070322F /* DeDuplicationImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeDuplicationImageUITests.m; sourceTree = "<group>"; };
+		04EA805225EF5BDD0070322F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F15E4325F622DE0050131A /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		04F15E4425F622DE0050131A /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+		9A4AC5B9245EC094499CB515 /* Pods-DeDuplicationImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeDuplicationImage.release.xcconfig"; path = "Target Support Files/Pods-DeDuplicationImage/Pods-DeDuplicationImage.release.xcconfig"; sourceTree = "<group>"; };
+		9EBB613C0004A16045A69670 /* Pods-DeDuplicationImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeDuplicationImage.debug.xcconfig"; path = "Target Support Files/Pods-DeDuplicationImage/Pods-DeDuplicationImage.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBD9C5717BC6302049F7992 /* Pods_DeDuplicationImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeDuplicationImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EA802325EF5BD70070322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD403A104F0029FDF3D8FAA7 /* Pods_DeDuplicationImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA803E25EF5BDD0070322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA804925EF5BDD0070322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043C460A25FA325700F545CD /* RootNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				043C460B25FA328B00F545CD /* AMRootNavigationController.h */,
+				043C460C25FA328B00F545CD /* AMRootNavigationController.m */,
+			);
+			path = RootNavigation;
+			sourceTree = "<group>";
+		};
+		048BEEE425F9B0C300E60CB8 /* AMAssets */ = {
+			isa = PBXGroup;
+			children = (
+				04DE49D225F1DC0C000ED380 /* AMPhotoManager.h */,
+				04DE49D325F1DC0C000ED380 /* AMPhotoManager.m */,
+			);
+			path = AMAssets;
+			sourceTree = "<group>";
+		};
+		048BEEE825F9B0F800E60CB8 /* AMImageCompareCore */ = {
+			isa = PBXGroup;
+			children = (
+				0429D4DF25F79406006037AE /* AMPhashAssetsCompare.h */,
+				0429D4E025F79406006037AE /* AMPhashAssetsCompare.mm */,
+				0493CA7E25FB027500513332 /* AMHistogramCompare.h */,
+				0493CA7F25FB027500513332 /* AMHistogramCompare.mm */,
+				04E44FC0261C797300FAE98B /* AMOrbAssetsCompare.h */,
+				04E44FC1261C797300FAE98B /* AMOrbAssetsCompare.mm */,
+				04E234902625894D002CD80E /* AMSimilarityManager.h */,
+				04E234912625894D002CD80E /* AMSimilarityManager.m */,
+				048F769D262EF73B00DB1401 /* AMCompare.h */,
+				048F769E262EF73B00DB1401 /* AMCompare.mm */,
+			);
+			path = AMImageCompareCore;
+			sourceTree = "<group>";
+		};
+		048BEEEC25F9B13200E60CB8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				043C462125FA341300F545CD /* UIView+Extension.h */,
+				043C462025FA341300F545CD /* UIView+Extension.m */,
+				043C461A25FA340E00F545CD /* NSString+Extension.h */,
+				043C461B25FA340E00F545CD /* NSString+Extension.m */,
+				043C461525FA33F900F545CD /* UIViewController+AMNavigationItem.h */,
+				043C461425FA33F900F545CD /* UIViewController+AMNavigationItem.m */,
+				04F15E4325F622DE0050131A /* NSDate+Helper.h */,
+				04F15E4425F622DE0050131A /* NSDate+Helper.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04E4877225F8BC44002E5C71 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				04E4877325F8BE5E002E5C71 /* AMAssetCollectionViewCell.h */,
+				04E4877425F8BE5E002E5C71 /* AMAssetCollectionViewCell.m */,
+				04D3E083262031AA002A41A0 /* AMImageShowController.h */,
+				04D3E084262031AA002A41A0 /* AMImageShowController.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		04EA801D25EF5BD70070322F = {
+			isa = PBXGroup;
+			children = (
+				04EA802825EF5BD70070322F /* DeDuplicationImage */,
+				04EA804425EF5BDD0070322F /* DeDuplicationImageTests */,
+				04EA804F25EF5BDD0070322F /* DeDuplicationImageUITests */,
+				04EA802725EF5BD70070322F /* Products */,
+				79EF475382999577AFB4C8FF /* Pods */,
+				FE4E9C17D867B8F8652C48F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04EA802725EF5BD70070322F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EA802625EF5BD70070322F /* DeDuplicationImage.app */,
+				04EA804125EF5BDD0070322F /* DeDuplicationImageTests.xctest */,
+				04EA804C25EF5BDD0070322F /* DeDuplicationImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EA802825EF5BD70070322F /* DeDuplicationImage */ = {
+			isa = PBXGroup;
+			children = (
+				043C460A25FA325700F545CD /* RootNavigation */,
+				048BEEEC25F9B13200E60CB8 /* Category */,
+				048BEEE825F9B0F800E60CB8 /* AMImageCompareCore */,
+				048BEEE425F9B0C300E60CB8 /* AMAssets */,
+				04E4877225F8BC44002E5C71 /* CollectionView */,
+				04EA802925EF5BD70070322F /* AppDelegate.h */,
+				04EA802A25EF5BD70070322F /* AppDelegate.m */,
+				04EA802C25EF5BD70070322F /* SceneDelegate.h */,
+				04EA802D25EF5BD70070322F /* SceneDelegate.m */,
+				04EA802F25EF5BD70070322F /* ViewController.h */,
+				04EA803025EF5BD70070322F /* ViewController.m */,
+				04EA803225EF5BD70070322F /* Main.storyboard */,
+				04EA803525EF5BDC0070322F /* Assets.xcassets */,
+				04EA803725EF5BDC0070322F /* LaunchScreen.storyboard */,
+				04EA803A25EF5BDC0070322F /* Info.plist */,
+				04EA803B25EF5BDC0070322F /* main.m */,
+				04E4876525F8AF77002E5C71 /* MainViewController.h */,
+				04E4876625F8AF77002E5C71 /* MainViewController.m */,
+				0493CAAA25FB4B0900513332 /* TestViewController.h */,
+				0493CAAB25FB4B0900513332 /* TestViewController.m */,
+				04D3E08926203DE8002A41A0 /* PrefixHeader.pch */,
+			);
+			path = DeDuplicationImage;
+			sourceTree = "<group>";
+		};
+		04EA804425EF5BDD0070322F /* DeDuplicationImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EA804525EF5BDD0070322F /* DeDuplicationImageTests.m */,
+				04EA804725EF5BDD0070322F /* Info.plist */,
+			);
+			path = DeDuplicationImageTests;
+			sourceTree = "<group>";
+		};
+		04EA804F25EF5BDD0070322F /* DeDuplicationImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04EA805025EF5BDD0070322F /* DeDuplicationImageUITests.m */,
+				04EA805225EF5BDD0070322F /* Info.plist */,
+			);
+			path = DeDuplicationImageUITests;
+			sourceTree = "<group>";
+		};
+		79EF475382999577AFB4C8FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EBB613C0004A16045A69670 /* Pods-DeDuplicationImage.debug.xcconfig */,
+				9A4AC5B9245EC094499CB515 /* Pods-DeDuplicationImage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE4E9C17D867B8F8652C48F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD9C5717BC6302049F7992 /* Pods_DeDuplicationImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EA802525EF5BD70070322F /* DeDuplicationImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA805525EF5BDD0070322F /* Build configuration list for PBXNativeTarget "DeDuplicationImage" */;
+			buildPhases = (
+				91A05A86E2846FBE344EFD98 /* [CP] Check Pods Manifest.lock */,
+				04EA802225EF5BD70070322F /* Sources */,
+				04EA802325EF5BD70070322F /* Frameworks */,
+				04EA802425EF5BD70070322F /* Resources */,
+				4854238504BB4EFA18A74A2B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeDuplicationImage;
+			productName = DeDuplicationImage;
+			productReference = 04EA802625EF5BD70070322F /* DeDuplicationImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EA804025EF5BDD0070322F /* DeDuplicationImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA805825EF5BDD0070322F /* Build configuration list for PBXNativeTarget "DeDuplicationImageTests" */;
+			buildPhases = (
+				04EA803D25EF5BDD0070322F /* Sources */,
+				04EA803E25EF5BDD0070322F /* Frameworks */,
+				04EA803F25EF5BDD0070322F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EA804325EF5BDD0070322F /* PBXTargetDependency */,
+			);
+			name = DeDuplicationImageTests;
+			productName = DeDuplicationImageTests;
+			productReference = 04EA804125EF5BDD0070322F /* DeDuplicationImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EA804B25EF5BDD0070322F /* DeDuplicationImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA805B25EF5BDD0070322F /* Build configuration list for PBXNativeTarget "DeDuplicationImageUITests" */;
+			buildPhases = (
+				04EA804825EF5BDD0070322F /* Sources */,
+				04EA804925EF5BDD0070322F /* Frameworks */,
+				04EA804A25EF5BDD0070322F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EA804E25EF5BDD0070322F /* PBXTargetDependency */,
+			);
+			name = DeDuplicationImageUITests;
+			productName = DeDuplicationImageUITests;
+			productReference = 04EA804C25EF5BDD0070322F /* DeDuplicationImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EA801E25EF5BD70070322F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					04EA802525EF5BD70070322F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					04EA804025EF5BDD0070322F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 04EA802525EF5BD70070322F;
+					};
+					04EA804B25EF5BDD0070322F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 04EA802525EF5BD70070322F;
+					};
+				};
+			};
+			buildConfigurationList = 04EA802125EF5BD70070322F /* Build configuration list for PBXProject "DeDuplicationImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EA801D25EF5BD70070322F;
+			productRefGroup = 04EA802725EF5BD70070322F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EA802525EF5BD70070322F /* DeDuplicationImage */,
+				04EA804025EF5BDD0070322F /* DeDuplicationImageTests */,
+				04EA804B25EF5BDD0070322F /* DeDuplicationImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EA802425EF5BD70070322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA803925EF5BDC0070322F /* LaunchScreen.storyboard in Resources */,
+				04EA803625EF5BDC0070322F /* Assets.xcassets in Resources */,
+				04EA803425EF5BD70070322F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA803F25EF5BDD0070322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA804A25EF5BDD0070322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4854238504BB4EFA18A74A2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeDuplicationImage/Pods-DeDuplicationImage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeDuplicationImage/Pods-DeDuplicationImage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeDuplicationImage/Pods-DeDuplicationImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A05A86E2846FBE344EFD98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeDuplicationImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EA802225EF5BD70070322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DE49D425F1DC0D000ED380 /* AMPhotoManager.m in Sources */,
+				04EA803125EF5BD70070322F /* ViewController.m in Sources */,
+				043C462225FA341300F545CD /* UIView+Extension.m in Sources */,
+				04E4876725F8AF77002E5C71 /* MainViewController.m in Sources */,
+				04EA802B25EF5BD70070322F /* AppDelegate.m in Sources */,
+				04EA803C25EF5BDC0070322F /* main.m in Sources */,
+				04F15E4525F622DE0050131A /* NSDate+Helper.m in Sources */,
+				04E44FC2261C797300FAE98B /* AMOrbAssetsCompare.mm in Sources */,
+				043C461625FA33F900F545CD /* UIViewController+AMNavigationItem.m in Sources */,
+				043C461C25FA340E00F545CD /* NSString+Extension.m in Sources */,
+				0493CAAC25FB4B0900513332 /* TestViewController.m in Sources */,
+				04D3E085262031AA002A41A0 /* AMImageShowController.m in Sources */,
+				04E234922625894D002CD80E /* AMSimilarityManager.m in Sources */,
+				04EA802E25EF5BD70070322F /* SceneDelegate.m in Sources */,
+				048F769F262EF73B00DB1401 /* AMCompare.mm in Sources */,
+				04E4877525F8BE5E002E5C71 /* AMAssetCollectionViewCell.m in Sources */,
+				0429D4E125F79406006037AE /* AMPhashAssetsCompare.mm in Sources */,
+				0493CA8025FB027500513332 /* AMHistogramCompare.mm in Sources */,
+				043C460D25FA328B00F545CD /* AMRootNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA803D25EF5BDD0070322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA804625EF5BDD0070322F /* DeDuplicationImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EA804825EF5BDD0070322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA805125EF5BDD0070322F /* DeDuplicationImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EA804325EF5BDD0070322F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EA802525EF5BD70070322F /* DeDuplicationImage */;
+			targetProxy = 04EA804225EF5BDD0070322F /* PBXContainerItemProxy */;
+		};
+		04EA804E25EF5BDD0070322F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EA802525EF5BD70070322F /* DeDuplicationImage */;
+			targetProxy = 04EA804D25EF5BDD0070322F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EA803225EF5BD70070322F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EA803325EF5BD70070322F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EA803725EF5BDC0070322F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EA803825EF5BDC0070322F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EA805325EF5BDD0070322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04EA805425EF5BDD0070322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EA805625EF5BDD0070322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBB613C0004A16045A69670 /* Pods-DeDuplicationImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = DeDuplicationImage/PrefixHeader.pch;
+				INFOPLIST_FILE = DeDuplicationImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aomei.DeDuplicationImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04EA805725EF5BDD0070322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4AC5B9245EC094499CB515 /* Pods-DeDuplicationImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = DeDuplicationImage/PrefixHeader.pch;
+				INFOPLIST_FILE = DeDuplicationImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aomei.DeDuplicationImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04EA805925EF5BDD0070322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = DeDuplicationImageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aomei.DeDuplicationImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeDuplicationImage.app/DeDuplicationImage";
+			};
+			name = Debug;
+		};
+		04EA805A25EF5BDD0070322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = DeDuplicationImageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aomei.DeDuplicationImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeDuplicationImage.app/DeDuplicationImage";
+			};
+			name = Release;
+		};
+		04EA805C25EF5BDD0070322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = DeDuplicationImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aomei.DeDuplicationImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeDuplicationImage;
+			};
+			name = Debug;
+		};
+		04EA805D25EF5BDD0070322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 292V2CN6SF;
+				INFOPLIST_FILE = DeDuplicationImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aomei.DeDuplicationImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeDuplicationImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EA802125EF5BD70070322F /* Build configuration list for PBXProject "DeDuplicationImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA805325EF5BDD0070322F /* Debug */,
+				04EA805425EF5BDD0070322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EA805525EF5BDD0070322F /* Build configuration list for PBXNativeTarget "DeDuplicationImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA805625EF5BDD0070322F /* Debug */,
+				04EA805725EF5BDD0070322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EA805825EF5BDD0070322F /* Build configuration list for PBXNativeTarget "DeDuplicationImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA805925EF5BDD0070322F /* Debug */,
+				04EA805A25EF5BDD0070322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EA805B25EF5BDD0070322F /* Build configuration list for PBXNativeTarget "DeDuplicationImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA805C25EF5BDD0070322F /* Debug */,
+				04EA805D25EF5BDD0070322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EA801E25EF5BD70070322F /* Project object */;
+}
