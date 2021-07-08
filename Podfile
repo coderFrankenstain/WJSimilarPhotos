@@ -1,5 +1,4 @@
 source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
-source 'http://192.168.3.225:4080/mbackupper/mobile/ios_modules/ammodulespecs.git'
 platform :ios, '9.1'
 use_frameworks!
 target 'DeDuplicationImage' do
